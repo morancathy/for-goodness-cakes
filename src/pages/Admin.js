@@ -85,10 +85,10 @@ export default function Admin(props) {
 							<h1>Log Out</h1>
 						</button>
 					</div>
-					{viewOrder && <Orders />}
-					{viewContact && <ContactSubmissions />}
-					{viewDisable && <DisableDay />}
-					{viewAnnouc && <Annoucements />}
+					{viewOrder && <Orders bold={bold} />}
+					{viewContact && <ContactSubmissions bold={bold} />}
+					{viewDisable && <DisableDay bold={bold} />}
+					{viewAnnouc && <Annoucements bold={bold} />}
 				</>
 			)}
 		</div>

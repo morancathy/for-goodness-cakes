@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import UpdateOrder from './UpdateOrder';
 
-const Orders = props => {
+const Orders = ({ props, bold }) => {
 	const [orders, setOrders] = useState([]);
 	const [updatedOrder, setUpdatedOrder] = useState({});
 	const [orderToUpdate, setOrderToUpdate] = useState({});
@@ -12,6 +12,7 @@ const Orders = props => {
 		setShowUpdateForm(!showUpdateForm);
 		setOrderToUpdate(id);
 		setIndex(dex);
+		console.log(id);
 	};
 
 	useEffect(() => {
@@ -28,7 +29,7 @@ const Orders = props => {
 
 	return (
 		<div className="Orders">
-			<h1>Orders</h1>
+			<h1 style={bold(true)}>Orders</h1>
 
 			<div className="table-responsive">
 				<table className="table table-hover">

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import DayPicker from 'react-day-picker';
 // import 'react-day-picker/lib/style.css';
 
-const DisableDay = ({ props, selectedDate, setSelectedDate }) => {
+const DisableDay = ({ props, selectedDate, setSelectedDate, bold }) => {
 	const [day, setDay] = useState([]);
 	const [newDay, setNewDay] = useState({
 		year: null,
@@ -41,7 +41,7 @@ const DisableDay = ({ props, selectedDate, setSelectedDate }) => {
 
 	return (
 		<div className="DisableDay">
-			<h1>Disable Date</h1>
+			<h1 style={bold(true)}>Disable Date</h1>
 			<form
 				className=""
 				onSubmit={handleSubmit}

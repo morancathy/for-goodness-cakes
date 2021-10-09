@@ -52,11 +52,23 @@
 // ===== Orders Component =====
 .Orders {
   padding: 0 10% 5% 10%;
+  h1{
+    width: 275px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
 }
 
 // ===== ContactSubmissions Component =====
 .ContactSubmissions {
   padding: 0 10% 5% 10%;
+  h1{
+    width: 325px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
 }
 
 // ===== Disabled Day Component =====
@@ -64,7 +76,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    h1{
+      width: 275px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      font-size: 40px;
+    }
     h4{
       font-size: 16px;
       margin: 10px 0 2px 0;
@@ -79,6 +96,12 @@
 // ===== Annoucement Component =====
 .Annoucements{
   padding: 0 10% 0 10%;
+  h1{
+    width: 275px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
 }
 
 // ===== Update Annoucement Component =====
@@ -98,4 +121,10 @@
         justify-content: space-around;
       }
     }
+}
+
+@media screen and (min-width: 700px) {
+  .Annoucements, .DisableDay, .ContactSubmissions,  > h1 {
+    // width: 325px;
+  }
 }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import UpdateAnnoucement from './UpdateAnnoucement';
 
-const Annoucements = props => {
+const Annoucements = ({ props, bold }) => {
 	const [annoucements, setAnnoucements] = useState([]);
 	const [updatedAnnoucement, setUpdatedAnnoucement] = useState({});
 	const [annoucementToUpdate, setAnnoucementToUpdate] = useState({});
@@ -26,7 +26,7 @@ const Annoucements = props => {
 
 	return (
 		<div className="Annoucements">
-			<h1>Annoucements</h1>
+			<h1 style={bold(true)}>Annoucements</h1>
 
 			<div className="table-responsive">
 				<table className="table table-hover">

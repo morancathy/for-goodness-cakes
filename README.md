@@ -1,6 +1,10 @@
 # For Goodness Cakes
 
-This website application was designed with the idea of taking a bakery, For Goodness Cakes's, Instagram and turning it into a working website. Site allows baker to showcase goods, update an announcement bulletin, receive Calendly consultation appointments, and receive emails of all orders and 'contact me' submissions. Site allows users to browse goods, schedule a consultation, submit an order and email the baker directly from the site.
+Application emulates figma hand-off from UX team with idea of turning a bakery’s Instagram into a working web application.  Site allows baker to showcase goods, update an announcement bulletin, receive Calendly consultation appointments, and receive emails of all orders and 'contact me' submissions. Site allows users to browse goods, schedule a consultation, submit an order and email the baker directly from the site.
+
+#### Registration Form disabled for demo purposes.
+#### Use 'demo' for both username and pw to check out Admin page.
+#### Admin link located middle of the footer, in faint white.
 
 
 ## Project Team   
@@ -20,6 +24,7 @@ This website application was designed with the idea of taking a bakery, For Good
   - Use of React Router
   - Working calendar that allows for scheduling and organization
   - Direct interaction with client's Calendaly
+  - Use of emailjs to link user connectivity directly to baker’s email
   - Admin page with access/manipulation features for all orders, 'contact me' submissions, announcement bulletin, and calendar scheduling.
 
 ## User Stories:
@@ -40,7 +45,7 @@ This website application was designed with the idea of taking a bakery, For Good
 
 
 ## Wireframes:
- 
+
   Figma [wireframe handoffs](https://www.figma.com/file/wn1CBHf78At9NwYtotzk7g/P6-Wireframes?node-id=25%3A470) from UX team
 
 

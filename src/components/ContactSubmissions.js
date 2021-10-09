@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const ContactSubmissions = props => {
+const ContactSubmissions = ({ props, bold }) => {
 	const [submissions, setSubmissions] = useState([]);
 
 	useEffect(() => {
@@ -33,7 +33,7 @@ const ContactSubmissions = props => {
 
 	return (
 		<div className="ContactSubmissions">
-			<h1>'Contact Me' Submissions</h1>
+			<h1 style={bold(true)}>'Contact Me' Submissions</h1>
 
 			<div className="table-responsive">
 				<table className="table table-hover">
