@@ -1,10 +1,12 @@
 # For Goodness Cakes
 
-Application emulates figma hand-off from UX team with idea of turning a bakeryâ€™s Instagram into a working web application.  Site allows baker to showcase goods, update an announcement bulletin, receive Calendly consultation appointments, and receive emails of all orders and 'contact me' submissions. Site allows users to browse goods, schedule a consultation, submit an order and email the baker directly from the site.
+App emulates figma hand-off from UX team with purpose of turning a bakeryâ€™s Instagram into a working web app. Includes admin page allowing baker to manipulate announcement bulletin and app calendar for availability. Also stores all form submissions (orders and 'contact me') in addition to being sent directly to baker's email. App also allows users to schedule a consultation via Calendly.\
+\
+Team lead of 5 developers in group project.
 
 #### Registration Form disabled for demo purposes.
 #### Use 'demo' for both username and pw to check out Admin page.
-#### Admin link located middle of the footer, in faint white.
+#### Admin link located in middle of the footer, in faint white.
 
 
 ## Project Team   
@@ -23,21 +25,25 @@ Application emulates figma hand-off from UX team with idea of turning a bakeryâ€
   - Authorization that includes sign up/login functionality, with encrypted passwords & an authorization flow
   - Use of React Router
   - Working calendar that allows for scheduling and organization
-  - Direct interaction with client's Calendaly
+  - Direct interaction with client's Calendly
   - Use of emailjs to link user connectivity directly to bakerâ€™s email
-  - Admin page with access/manipulation features for all orders, 'contact me' submissions, announcement bulletin, and calendar scheduling.
+  - Admin page with access/manipulation features for all orders, 'contact me' submissions, announcement bulletin, and calendar scheduling
+
 
 ## User Stories:
 
-  1. Users visit the home page are greeted with a carousel of featured images, a bulletin board with updated information, Calendly link with scheduling options and reviews from baker's Facebook.
+  1. Admin page allowing baker to manipulate announcement bulletin and app calendar for availability. Also stores all form submissions (orders and 'contact me')
 
-  2. Users can browse a menu with flavors and pricing, as well as an image gallery with corresponding Instagram links to that product's post.
+  2. Users visit the home page are greeted with a carousel of featured images, a bulletin board with updated information, Calendly link with scheduling options and reviews from baker's Facebook
 
-  3. User's can place an order via an order form that is sent directly to baker's email. User can browse a calendar with baker's availability as well as include design ideas and allergies with the order.
+  3. Users can browse a menu with flavors and pricing, as well as an image gallery with corresponding Instagram links to that product's post
 
-  4. User can read a snippet about the baker and an FAQ page.
+  4. Users can place an order via an order form that is sent directly to baker's email. User can browse a calendar with baker's availability as well as include design ideas and allergies with the order
 
-  5. User can send a direct email to the baker via the 'Contact Me' form.
+  5. Users can read a snippet about the baker and an FAQ page
+
+  6. Users can send a direct email to the baker via the 'Contact Me' form
+
 
 ## Product Management:
 
@@ -49,7 +55,6 @@ Application emulates figma hand-off from UX team with idea of turning a bakeryâ€
   Figma [wireframe handoffs](https://www.figma.com/file/wn1CBHf78At9NwYtotzk7g/P6-Wireframes?node-id=25%3A470) from UX team
 
 
-
 ## Technologies Used  
 
 React\
@@ -59,4 +64,4 @@ Express\
 \
 To have emails sent to baker: Create an account on [EmailJS](https://www.emailjs.com). Input template ID, account ID, email services ID and template params.  \
 \
-To import baker's Calednly: Create an account on [Calendly](https://calendly.com/). Input personalized Calednly link. Customize form as needed.
+To import baker's Calendly: Create an account on [Calendly](https://calendly.com/). Input personalized Calendly link. Customize form as needed.
