@@ -1,6 +1,6 @@
 # For Goodness Cakes
 
-App emulates figma hand-off from UX team with purpose of turning a bakery’s Instagram into a working web app. Includes admin page allowing baker to manipulate announcement bulletin and app calendar for availability. Also stores all form submissions (orders and 'contact me') in addition to being sent directly to baker's email. App also allows users to schedule a consultation via Calendly.\
+App emulates figma hand-off from UX team with purpose of turning a bakery’s Instagram into a working web app. Includes admin page allowing baker to manipulate announcement bulletin and app calendar for availability. Also stores all form submissions (orders and 'contact me') in addition to being sent directly to baker's email. App also allows users to schedule a consultation via Calendly.
 
 #### Registration Form disabled for demo purposes.
 #### Use 'demo' for both username and pw to check out Admin page.
